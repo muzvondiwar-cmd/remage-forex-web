@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f8fafc; /* Slate-50 */
+    color: #0f172a; /* Slate-900 */
+    overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+/* --- Custom Scrollbar Fix --- */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a; /* Matches Navy Background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #334155; /* Slate-700 */
+    border-radius: 5px;
+    border: 2px solid #0f172a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #10b981; /* Green hover effect */
+}
