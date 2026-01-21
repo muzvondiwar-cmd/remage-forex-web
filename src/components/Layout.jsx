@@ -34,7 +34,7 @@ const Navbar = () => {
                                     {link.name}
                                 </Link>
                             ))}
-                            <a href="https://wa.me/1234567890" className="bg-remage-green hover:bg-green-600 text-white px-5 py-2 rounded-full font-bold text-sm transition-all shadow-lg hover:shadow-green-500/30">
+                            <a href="https://wa.me/+27605478465" className="bg-remage-green hover:bg-green-600 text-white px-5 py-2 rounded-full font-bold text-sm transition-all shadow-lg hover:shadow-green-500/30">
                                 Join WhatsApp
                             </a>
                         </div>
