@@ -92,7 +92,7 @@ const TestimonialsPage = () => {
             {/* Bottom CTA */}
             <section className="py-20 text-center">
                 <h2 className="text-3xl font-bold text-remage-navy mb-6">Ready to post your own results?</h2>
-                <a href="https://wa.me/1234567890" className="inline-block bg-remage-green text-white px-10 py-4 rounded-full font-bold shadow-lg hover:bg-green-600 transition-colors">
+                <a href="https://wa.me/+27605478465" className="inline-block bg-remage-green text-white px-10 py-4 rounded-full font-bold shadow-lg hover:bg-green-600 transition-colors">
                     Join the Winning Team
                 </a>
             </section>

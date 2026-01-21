@@ -28,7 +28,7 @@ const Pricing = () => {
                             <li key={i} className="flex gap-3"><Check size={18} className="text-slate-500" /> {i}</li>
                         ))}
                     </ul>
-                    <a href="https://wa.me/1234567890" className="block w-full py-3 bg-slate-700 text-white rounded-xl font-bold hover:bg-slate-600 transition-colors text-center">Join Now</a>
+                    <a href="https://wa.me/+27605478465" className="block w-full py-3 bg-slate-700 text-white rounded-xl font-bold hover:bg-slate-600 transition-colors text-center">Join Now</a>
                 </FadeIn>
 
                 {/* PRO Plan (Highlighted) */}
@@ -64,7 +64,7 @@ const Pricing = () => {
                             <li key={i} className="flex gap-3"><Check size={18} className="text-remage-green" /> {i}</li>
                         ))}
                     </ul>
-                    <a href="https://wa.me/1234567890" className="block w-full py-3 bg-remage-green text-white rounded-xl font-bold hover:bg-green-600 transition-colors text-center">Link Account</a>
+                    <a href="https://wa.me/+27605478465" className="block w-full py-3 bg-remage-green text-white rounded-xl font-bold hover:bg-green-600 transition-colors text-center">Link Account</a>
                 </FadeIn>
 
             </div>

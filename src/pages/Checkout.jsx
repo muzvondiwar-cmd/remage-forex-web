@@ -30,7 +30,7 @@ const Checkout = () => {
         // Simulate processing delay then redirect to WhatsApp
         setTimeout(() => {
             const message = `*NEW ORDER ID: #${Math.floor(Math.random() * 10000)}*\n\nHi Remage Team, I would like to complete my payment.\n\n*Item:* ${order.item}\n*Total:* $${order.total}\n*Method:* ${method.toUpperCase()}\n\nPlease confirm where I should send the funds/proof of payment.`;
-            const url = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`;
+            const url = `https://wa.me/+27605478465?text=${encodeURIComponent(message)}`;
             window.open(url, '_blank');
             setIsProcessing(false);
         }, 2000);
@@ -253,7 +253,7 @@ const Checkout = () => {
 
                         <div className="text-center">
                             <p className="text-xs text-slate-400 mb-1">Having trouble?</p>
-                            <a href="https://wa.me/1234567890" className="text-sm font-bold text-remage-navy hover:text-remage-blue transition-colors flex items-center justify-center gap-1">
+                            <a href="https://wa.me/+27605478465" className="text-sm font-bold text-remage-navy hover:text-remage-blue transition-colors flex items-center justify-center gap-1">
                                 Chat with Support <ArrowLeft size={12} className="rotate-180"/>
                             </a>
                         </div>

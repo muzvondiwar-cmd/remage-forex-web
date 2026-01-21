@@ -31,7 +31,7 @@ const Contact = () => {
                         <p className="text-slate-500 mb-8">Average Response: &lt; 15 mins</p>
 
                         <a
-                            href="https://wa.me/1234567890"
+                            href="https://wa.me/+27605478465"
                             className="bg-remage-navy text-white px-10 py-4 rounded-xl font-bold hover:bg-slate-800 transition-all flex items-center gap-2"
                         >
                             Start Chat <ArrowUpRight size={18} />

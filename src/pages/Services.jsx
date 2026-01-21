@@ -10,7 +10,7 @@ const Services = () => {
             description: "Connect your account to our master terminal. We trade, you profit. 100% automated copy trading.",
             icon: <LinkIcon size={32} />,
             color: "blue",
-            link: "https://wa.me/1234567890?text=Hi,%20I'm%20interested%20in%20Account%20Linking"
+            link: "https://wa.me/+27605478465?text=Hi,%20I'm%20interested%20in%20Account%20Linking"
         },
         {
             title: "Forex Mentorship",
@@ -18,7 +18,7 @@ const Services = () => {
             description: "Master the psychology and technicals behind the charts. Zero to Hero curriculum.",
             icon: <Users size={32} />,
             color: "gold",
-            link: "https://wa.me/1234567890?text=Hi,%20I'm%20interested%20in%20Mentorship"
+            link: "https://wa.me/+27605478465?text=Hi,%20I'm%20interested%20in%20Mentorship"
         },
         {
             title: "Live Signals",
@@ -26,7 +26,7 @@ const Services = () => {
             description: "Join our WhatsApp community for daily market breakdowns and potential setups.",
             icon: <Video size={32} />,
             color: "green",
-            link: "https://wa.me/1234567890"
+            link: "https://wa.me/+27605478465"
         }
     ];
 
