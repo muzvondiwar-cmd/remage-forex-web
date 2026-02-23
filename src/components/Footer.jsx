@@ -14,9 +14,7 @@ const Footer = () => {
                     <div className="col-span-1 md:col-span-1">
                         <Link to="/" className="flex items-center gap-3 mb-4">
                             <img src="/logo.png" alt="Remage Logo" className="h-10 w-auto object-contain" />
-                            <span className="text-2xl font-bold text-white">
-                Remage <span className="text-remage-gold">Forex</span>
-              </span>
+
                         </Link>
                         <p className="text-sm text-slate-400 mb-6 leading-relaxed">
                             Empowering traders with institutional-grade algorithms and elite community support. Master the markets with Cyprus-V1.

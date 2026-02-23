@@ -45,11 +45,8 @@ const Navbar = () => {
                     <Link to="/" className="flex items-center gap-3 z-50 group">
                         <div className="relative">
                             <div className="absolute inset-0 bg-remage-gold blur-md opacity-0 group-hover:opacity-40 transition-opacity duration-300 rounded-full"></div>
-                            <img src="/logo.png" alt="Remage Logo" className="h-10 w-auto object-contain relative z-10 transition-transform duration-300 group-hover:scale-105" />
+                            <img src="/logo2.png" alt="Remage Logo" className="h-10 w-auto object-contain relative z-10 transition-transform duration-300 group-hover:scale-105" />
                         </div>
-                        <span className="text-2xl font-bold text-white tracking-tight hidden sm:block">
-              Remage <span className="text-transparent bg-clip-text bg-gradient-to-r from-remage-gold to-yellow-200">Forex</span>
-            </span>
                     </Link>
 
                     {/* DESKTOP NAVIGATION */}
