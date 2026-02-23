@@ -45,7 +45,7 @@ const Navbar = () => {
                     <Link to="/" className="flex items-center gap-3 z-50 group">
                         <div className="relative">
                             <div className="absolute inset-0 bg-remage-gold blur-md opacity-0 group-hover:opacity-40 transition-opacity duration-300 rounded-full"></div>
-                            <img src="/logo2.png" alt="Remage Logo" className="h-10 w-auto object-contain relative z-10 transition-transform duration-300 group-hover:scale-105" />
+                            <img src="/logo.png" alt="Remage Logo" className="h-10 w-auto object-contain relative z-10 transition-transform duration-300 group-hover:scale-105" />
                         </div>
                     </Link>
 

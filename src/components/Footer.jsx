@@ -13,7 +13,7 @@ const Footer = () => {
                     {/* Brand & Logo Section */}
                     <div className="col-span-1 md:col-span-1">
                         <Link to="/" className="flex items-center gap-3 mb-4">
-                            <img src="/logo.png" alt="Remage Logo" className="h-10 w-auto object-contain" />
+                            <img src="/logo2.png" alt="Remage Logo" className="h-10 w-auto object-contain" />
 
                         </Link>
                         <p className="text-sm text-slate-400 mb-6 leading-relaxed">
