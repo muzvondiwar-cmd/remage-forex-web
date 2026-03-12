@@ -34,7 +34,7 @@ const Checkout = () => {
         setTimeout(() => {
             // 2. DYNAMIC WHATSAPP MESSAGE
             const message = `*NEW ORDER ID: #${Math.floor(Math.random() * 10000)}*\n\nHi Remage Team, I would like to complete my payment.\n\n*Item:* ${order.item}\n*Total:* $${order.total}\n*Method:* ${method.toUpperCase()}\n\nPlease confirm where I should send the funds/proof of payment.`;
-            const url = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`;
+            const url = `https://wa.me/+27605478465?text=${encodeURIComponent(message)}`;
             window.open(url, '_blank');
             setIsProcessing(false);
         }, 2000);

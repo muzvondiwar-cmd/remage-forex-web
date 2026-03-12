@@ -159,7 +159,7 @@ const TestimonialsPage = () => {
                         <Link to="/pricing" className="w-full sm:w-auto bg-remage-gold text-remage-navy px-8 py-4 rounded-xl font-bold shadow-lg shadow-yellow-900/20 hover:bg-yellow-400 hover:scale-105 transition-all flex items-center justify-center gap-2">
                             View Pricing <ArrowRight size={18} />
                         </Link>
-                        <a href="https://wa.me/1234567890" className="w-full sm:w-auto bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-xl font-bold hover:bg-white/20 transition-all text-center">
+                        <a href="https://wa.me/+27605478465" className="w-full sm:w-auto bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-xl font-bold hover:bg-white/20 transition-all text-center">
                             Chat on WhatsApp
                         </a>
                     </div>
